@@ -5,7 +5,7 @@ export default component$(() => {
     <header class="flex justify-between items-center p-4 bg-white">
       {/* Logo in the Center */}
       <div class="flex-grow flex justify-center">
-        <img width="88" height="155" src="src/media/fclicon.png" />
+        <img width="88" height="155" src="images/fclicon.png" />
       </div>
       {/* Hamburger Menu (visible only on small screens) */}
       <div class="block lg:hidden">
