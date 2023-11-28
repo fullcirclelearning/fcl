@@ -24,7 +24,6 @@ export default component$(() => {
       <Sidebar />
       <Header />
       <main>
-
         <Slot />
       </main>
       <Footer />
