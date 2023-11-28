@@ -1,12 +1,14 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import Image from '../media/peopleAroundTable.jpg?jsx';
+import ImageStudy from '../media/studentStudying.jpg?jsx';
 import '../global.css';
 
 export default component$(() => {
   return (
     <div class="space-y-6 mx-6">
           <div class="flex justify-center">
-            <img width="691" height="194" alt="Educators consulting around a table" src="images/peopleAroundTable.jpg" />
+            <Image alt="educators around a table consulting" />
           </div>
           <div class="flex justify-center">
           <h1 class="text-4xl font-bold">
@@ -17,8 +19,8 @@ export default component$(() => {
           <div class="flex justify-center">
           <div class="container mx-auto max-w-4xl">
       <div class="flex flex-col md:flex-row gap-4">
-        <div class="md:w-1/2 md:pr-2">
-          <img src="images/studentStudying.jpg" width="398" height="300" alt="Student studies at their desk" class="max-w-lg h-auto" />
+        <div class="md:w-1/2 md:pr-2 mb-4 mt-2">
+          <ImageStudy alt="student with school work on desk" style={{ width: '398px', height: '300px'}} />
         </div>
         <div class="md:w-1/2 prose lg:prose-xl">
         <p class="">Education typically focuses on what to learn or how to learn. Full-Circle Learning also emphasizes why to learn.</p>

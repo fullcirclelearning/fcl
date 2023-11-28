@@ -1,8 +1,9 @@
 import { component$ } from '@builder.io/qwik';
+import Image from '../../media/ranch.jpg?jsx';
 
 export default component$(() => {
   return (
-    <div class="prose lg:prose-xl space-y-6 px-6 mx-auto">
+    <div class="prose lg:prose-xl space-y-6 px-6 mx-auto mt-6">
       <h1>About Us</h1>
       <p>The Full-Circle Learning (FCL) educational model was piloted in 1992 in Los Angeles California, initially to
 help traumatized learners re-envision their capacities and connections by embracing their role as society’s
@@ -23,7 +24,7 @@ California. FCL receives top ratings from
 Guidestar, Candid, and Great Nonprofits.</p>
 </div>
 <div class="md:w-1/2 md:pr-2">
-          <img width="320" height="180" src="images/ranch.jpg" alt="people sit at tables oustide of a house" />
+    <Image alt="people sit at tables oustide of a house" style={{width: '320px', height: '180px'}} />
         </div>
         </div>
       <p>The US Full-Circle Learning board liaises with a
