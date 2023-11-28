@@ -13,9 +13,14 @@ export const Sidebar = component$(() => {
             <nav>
                 <ul class="menu menu-lg bg-base-200 w-56 rounded-box">
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/about/">About</Link></li>
-                <li><Link href="/services">Services</Link></li>
-                <li><Link href="/contact">Contact</Link></li>
+                <li><Link href="/about/">About Us</Link></li>
+                <li><Link href="/why-set-up-a-training/">Why Set Up a Training</Link></li>
+                <li><Link href="/what-will-we-learn/">What Will We Learn</Link></li>
+                <li><Link href="/testimonials/">Testimonials</Link></li>
+                <li><Link href="/studies/">Studies</Link></li>
+                <li><Link href="/cost/">Cost</Link></li>
+                <li><Link href="/gallery/">Gallery</Link></li>
+                <li><Link href="/contact-us/">Contact Us</Link></li>
                 </ul>
             </nav>
             </aside>
