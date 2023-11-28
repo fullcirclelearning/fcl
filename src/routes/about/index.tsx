@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 
 export default component$(() => {
   return (
-    <div class="prose lg:prose-xl space-y-6 mx-auto">
+    <div class="prose lg:prose-xl space-y-6 px-6 mx-auto">
       <h1>About Us</h1>
       <p>The Full-Circle Learning (FCL) educational model was piloted in 1992 in Los Angeles California, initially to
 help traumatized learners re-envision their capacities and connections by embracing their role as society’s
