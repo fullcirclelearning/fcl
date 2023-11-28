@@ -17,7 +17,7 @@ export default component$(() => {
           <div class="flex justify-center">
           <div class="container mx-auto max-w-4xl">
       <div class="flex flex-col md:flex-row gap-4">
-        <div class="md:w-1/2">
+        <div class="md:w-1/2 md:pr-2">
           <img src="images/studentStudying.jpg" width="398" height="300" alt="Student studies at their desk" class="max-w-lg h-auto" />
         </div>
         <div class="md:w-1/2 prose lg:prose-xl">
@@ -25,7 +25,7 @@ export default component$(() => {
             <p class="">This research-based model of education cultivates the instinct to connect and to create, to balance curiosity with compassion, to problem-solve with humanitarian intent, to improve social cohesion, motivation and behavior.</p>
         </div>
       </div>
-      <div class="prose lg:prose-xl mt-6">
+      <div class="prose lg:prose-xl mt-4">
       <p>Learners broaden their sphere of influence as change agents in the world. Their learning influences the wellbeing of other living beings. This transformative impact, in turn, renews the human desire to learn.</p>
             <p>Explore this site to discover how you and your colleagues can intensify your own sense of purpose by infusing purpose into all learning.</p>
       </div>
