@@ -4,7 +4,7 @@ import '../global.css';
 
 export default component$(() => {
   return (
-    <div class="space-y-10 mx-6">
+    <div class="space-y-6 mx-6">
           <div class="flex justify-center">
             <img width="691" height="194" alt="Educators consulting around a table" src="images/peopleAroundTable.jpg" />
           </div>
@@ -12,7 +12,7 @@ export default component$(() => {
           <h1 class="text-4xl font-bold">
             <div class="text-center">Full-Circle Learning:</div>
             <div class="text-center">Enhancing Pedagogy, Practice, Purpose</div>
-</h1>
+          </h1>
           </div>
           <div class="flex justify-center">
           <div class="container mx-auto max-w-4xl">
