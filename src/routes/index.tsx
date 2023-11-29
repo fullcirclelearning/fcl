@@ -12,7 +12,7 @@ export default component$(() => {
           </div>
           <div class="flex justify-center">
           <h1 class="text-4xl font-bold">
-            <div class="text-center">Full-Circle Learning:</div>
+            <div class="text-center text-5xl">Full-Circle Learning:</div>
             <div class="text-center">Enhancing Pedagogy, Practice, Purpose</div>
           </h1>
           </div>
@@ -23,7 +23,7 @@ export default component$(() => {
           <ImageStudy alt="student with school work on desk" style={{ width: '398px', height: '300px'}} />
         </div>
         <div class="md:w-1/2 prose lg:prose-xl">
-        <p class="">Education typically focuses on what to learn or how to learn. Full-Circle Learning also emphasizes why to learn.</p>
+        <p class="">Education typically focuses on what to learn or how to learn. Full-Circle Learning also emphasizes <span class='italic'>why</span> to learn.</p>
             <p class="">This research-based model of education cultivates the instinct to connect and to create, to balance curiosity with compassion, to problem-solve with humanitarian intent, to improve social cohesion, motivation and behavior.</p>
         </div>
       </div>
@@ -39,11 +39,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Educators at Full Circle Learning",
+  title: "Full Circle Learning Educator Site",
   meta: [
     {
       name: "description",
-      content: "Full Circle Learning description",
+      content: "Full Circle Learning for Educators",
     },
   ],
 };
